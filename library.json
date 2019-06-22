@@ -1,0 +1,28 @@
+{
+  "name": "StrChrAdvanced",
+  "keywords": "null terminated strchr advanced",
+  "description": "Null terminated strchr like finders (forward and reverse) for range and ctypes, with example to parse ini config",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/qbazd/StrChrAdvanced.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Jakub Zdroik",
+      "email": "jakub.zdroik@gmail.com",
+      "url": "http://www.searis.pl/",
+      "maintainer": true
+    }
+  ],
+  "export": {
+      "include":
+      [
+          "src/*.[ch]"
+      ]
+  },
+  "version": "0.0.1",
+  "frameworks": "*",
+  "platforms": "*"
+}
